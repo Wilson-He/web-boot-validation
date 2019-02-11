@@ -1,7 +1,7 @@
 # web-common-validation
 
 ## 
-基于Spring Boot 2.0+的自动化配置参数校验框架
+基于Spring Boot 2.0+的自动化配置参数校验框架，自定义校验信息会覆盖默认信息，返回信息可设置中文或英文，可设置返回校验信息json字符串的key。
 
 ## 依赖添加
 	<dependency>
