@@ -12,6 +12,7 @@
 
 ## 快速开始
 Application.java
+
 	import io.github.web.validation.vo.StringListVO;
 	import io.swagger.annotations.Api;
 	import org.springframework.boot.SpringApplication;
@@ -54,6 +55,7 @@ Application.java
 	}
 
 application.yml
+
 	web:
 	  common:
 	    validation:
