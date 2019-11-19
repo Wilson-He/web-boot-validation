@@ -13,7 +13,7 @@
 ## 快速开始
 Application.java
 
-	import io.github.web.validation.vo.StringListVO;
+	import StringListVO;
 	import io.swagger.annotations.Api;
 	import org.springframework.boot.SpringApplication;
 	import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,7 +27,7 @@ Application.java
 	 * Application
 	 *
 	 * @author Wilson
-	 * @date 2018/11/17
+	 * @since 2018/11/17
 	 */
 	@RestController
 	@RequestMapping("/")

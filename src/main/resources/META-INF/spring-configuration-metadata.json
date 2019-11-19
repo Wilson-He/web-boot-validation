@@ -21,24 +21,24 @@
   ],
   "groups": [
     {
-      "sourceType": "io.github.web.validation.WebValidationAutoConfiguration",
+      "sourceType": "io.web.validation.WebValidationAutoConfiguration",
       "name": "web.common.validation",
-      "type": "io.github.web.validation.WebValidationAutoConfiguration"
+      "type": "io.web.validation.WebValidationAutoConfiguration"
     }
   ],
   "properties": [
     {
-      "sourceType": "io.github.web.validation.interceptor.ParameterExceptionHandler",
+      "sourceType": "io.web.validation.interceptor.ParameterExceptionHandler",
       "name": "web.common.validation.msg-key",
       "type": "java.lang.String"
     },
     {
-      "sourceType": "io.github.web.validation.interceptor.ParameterExceptionHandler",
+      "sourceType": "io.web.validation.interceptor.ParameterExceptionHandler",
       "name": "web.common.validation.code-key",
       "type": "java.lang.String"
     },
     {
-      "sourceType": "io.github.web.validation.interceptor.ParameterExceptionHandler",
+      "sourceType": "io.web.validation.interceptor.ParameterExceptionHandler",
       "name": "web.common.validation.msg-locale",
       "default": "en",
       "type": "java.lang.String"

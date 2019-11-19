@@ -1,4 +1,4 @@
-package io.github.web.validation.interceptor;
+package io.web.validation.interceptor;
 
 import org.apache.commons.lang3.LocaleUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -43,6 +43,8 @@ public class ParameterExceptionHandler {
 
     /**
      * 配置校验返回信息
+     *
+     * @return 信息格式设置
      */
     @Bean
     public SessionLocaleResolver localeResolver() {
@@ -55,6 +57,9 @@ public class ParameterExceptionHandler {
 
     /**
      * body参数校验错误处理
+     *
+     * @param exception body格式参数校验
+     * @return 参数错误
      */
     @ExceptionHandler({MethodArgumentNotValidException.class})
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -67,6 +72,9 @@ public class ParameterExceptionHandler {
 
     /**
      * query参数校验错误处理
+     *
+     * @param exception query格式参数校验
+     * @return 参数错误
      */
     @ExceptionHandler({ConstraintViolationException.class})
     @ResponseStatus(HttpStatus.BAD_REQUEST)

@@ -1,21 +1,22 @@
-package io.github.web.validation.vo;
+package io.web.validation.vo;
 
-import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 import javax.validation.constraints.NotNull;
 
 /**
- * IntegerVO
+ * LongVO
  *
  * @author Wilson
  */
 @Setter
-@Getter
 @ToString
-public class IntegerVO {
-
+public class LongVO {
     @NotNull
-    private Integer value;
+    private Long value;
+
+    public Long value(){
+        return this.value;
+    }
 }

@@ -1,6 +1,5 @@
-package io.github.web.validation.vo;
+package io.web.validation.vo;
 
-import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -12,10 +11,12 @@ import javax.validation.constraints.NotBlank;
  * @author Wilson
  */
 @Setter
-@Getter
 @ToString
 public class StringVO {
-
     @NotBlank
     private String value;
+
+    public String value(){
+        return this.value;
+    }
 }

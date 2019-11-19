@@ -1,6 +1,5 @@
-package io.github.web.validation.vo;
+package io.web.validation.vo;
 
-import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
@@ -9,14 +8,19 @@ import javax.validation.constraints.Size;
 import java.util.List;
 
 /**
- * IntegerListVO
+ * LongListVO
+ *
+ * @author Wilson
  */
-@Getter
 @Setter
 @ToString
-public class IntegerListVO {
+public class LongListVO {
 
     @NotNull
     @Size(min = 1)
-    private List<Integer> values;
+    private List<Long> values;
+
+    public List<Long> values(){
+        return this.values;
+    }
 }
