@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.wilson-he</groupId>
     <artifactId>web-boot-validation</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>web-boot-validation</name>
     <url>https://github.com/Wilson-He/web-boot-validation</url>
@@ -18,7 +18,7 @@
     <scm>
         <connection>git@github.com:Wilson-He/web-boot-validation.git</connection>
         <url>https://github.com/Wilson-He/web-boot-validation</url>
-        <tag>web-boot-validation-1.0.0.RELEASE</tag>
+        <tag>web-boot-validation-1.0.2.RELEASE</tag>
     </scm>
     <licenses>
         <license>
