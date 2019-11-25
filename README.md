@@ -5,7 +5,7 @@
 
 ## 依赖添加
 	<dependency>
-	    <groupId>com.github.wilson.swagger</groupId>
+	    <groupId>io.github.wilson-he</groupId>
 	    <artifactId>web-common-validation</artifactId>
 	    <version>LATEST</version>
 	</dependency>
